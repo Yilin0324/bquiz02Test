@@ -112,7 +112,7 @@ class DB{
                     ('".implode("','",$array)."')";
         }
 
-        echo $sql;
+        // echo $sql;
         return $this->pdo->exec($sql);
     }
 }
